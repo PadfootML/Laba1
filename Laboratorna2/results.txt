@@ -1,16 +1,16 @@
 ============================= test session starts ==============================
 platform linux -- Python 3.7.3, pytest-5.2.2, py-1.8.0, pluggy-0.13.0
-rootdir: /home/moria/labs/Laboratorna2
+rootdir: /home/moria/test/Laboratorna2
 collected 4 items
 
 tests/tests.py ....                                                      [100%]
 
-============================== 4 passed in 0.68s ===============================
+============================== 4 passed in 0.78s ===============================
 ========================================
 Результат без параметрів: 
 No URL passed to function
 ========================================
 Результат з правильною URL: 
-Time is:  06:58:47 PM
+Time is:  07:06:57 PM
 добрий вечір
 Date is:  11-10-2019
