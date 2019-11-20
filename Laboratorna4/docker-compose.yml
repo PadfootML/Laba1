@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: moria12/lab4-examples:compose-server
+    container_name: compose-server 
+    ports:
+      - 8000:8000
+  monitoring:
+    build:
+      context: .
+      dockerfile: Dockerfile.monitoring
+    image: moria12/lab4-examples:compose-monitoring
+    container_name: compose-monitoring 
+    network_mode: "host"
