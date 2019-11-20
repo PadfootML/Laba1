@@ -1,0 +1,52 @@
+INFO 2019-11-10 21:44:38,913 root : Сервер доступний. Час на сервері: test1
+INFO 2019-11-10 21:44:38,913 root : Запитувана сторінка: : test2
+INFO 2019-11-10 21:44:38,913 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-10 21:44:38,913 root : Ключ: date, Значення: test1
+INFO 2019-11-10 21:44:38,913 root : Ключ: current_page, Значення: test2
+INFO 2019-11-10 21:44:38,913 root : Ключ: server_info, Значення: test3
+INFO 2019-11-10 21:44:38,913 root : Ключ: client_info, Значення: test4
+INFO 2019-11-10 21:45:49,177 root : Сервер доступний. Час на сервері: test1
+INFO 2019-11-10 21:45:49,177 root : Запитувана сторінка: : test2
+INFO 2019-11-10 21:45:49,177 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-10 21:45:49,177 root : Ключ: date, Значення: test1
+INFO 2019-11-10 21:45:49,177 root : Ключ: current_page, Значення: test2
+INFO 2019-11-10 21:45:49,177 root : Ключ: server_info, Значення: test3
+INFO 2019-11-10 21:45:49,177 root : Ключ: client_info, Значення: test4
+ERROR 2019-11-10 21:55:19,584 __main__ : Щось трапилось, ось що каже програма: 
+HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7905137208>: Failed to establish a new connection: [Errno 111] Connection refused'))
+WARNING 2019-11-10 22:02:58,019 __main__ : Сервер в работі!
+INFO 2019-11-10 22:02:58,020 root : Сервер доступний. Час на сервері: 2019-11-10 20:02:57
+INFO 2019-11-10 22:02:58,020 root : Запитувана сторінка: : /health/
+INFO 2019-11-10 22:02:58,020 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-10 22:02:58,020 root : Ключ: date, Значення: 2019-11-10 20:02:57
+INFO 2019-11-10 22:02:58,020 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-10 22:02:58,020 root : Ключ: server_info, Значення: ['Linux', 'moria', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-10 22:02:58,020 root : Ключ: client_info, Значення: python-requests/2.22.0
+WARNING 2019-11-10 22:03:58,133 __main__ : Сервер в работі!
+INFO 2019-11-10 22:03:58,133 root : Сервер доступний. Час на сервері: 2019-11-10 20:03:58
+INFO 2019-11-10 22:03:58,133 root : Запитувана сторінка: : /health/
+INFO 2019-11-10 22:03:58,133 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-10 22:03:58,133 root : Ключ: date, Значення: 2019-11-10 20:03:58
+INFO 2019-11-10 22:03:58,133 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-10 22:03:58,133 root : Ключ: server_info, Значення: ['Linux', 'moria', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-10 22:03:58,133 root : Ключ: client_info, Значення: python-requests/2.22.0
+WARNING 2019-11-10 22:04:58,234 __main__ : Сервер в работі!
+INFO 2019-11-10 22:04:58,234 root : Сервер доступний. Час на сервері: 2019-11-10 20:04:58
+INFO 2019-11-10 22:04:58,234 root : Запитувана сторінка: : /health/
+INFO 2019-11-10 22:04:58,234 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-10 22:04:58,234 root : Ключ: date, Значення: 2019-11-10 20:04:58
+INFO 2019-11-10 22:04:58,234 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-10 22:04:58,234 root : Ключ: server_info, Значення: ['Linux', 'moria', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-10 22:04:58,234 root : Ключ: client_info, Значення: python-requests/2.22.0
+ERROR 2019-11-10 22:05:58,289 __main__ : Щось трапилось, ось що каже програма: 
+HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7feabfbd40f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-11-10 22:09:54,790 __main__ : Щось трапилось, ось що каже програма: 
+HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5179312128>: Failed to establish a new connection: [Errno 111] Connection refused'))
+WARNING 2019-11-20 17:54:54,384 __main__ : Сервер в работі!
+INFO 2019-11-20 17:54:54,384 root : Сервер доступний. Час на сервері: 2019-11-20 17:54:54
+INFO 2019-11-20 17:54:54,385 root : Запитувана сторінка: : /health/
+INFO 2019-11-20 17:54:54,385 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-20 17:54:54,385 root : Ключ: date, Значення: 2019-11-20 17:54:54
+INFO 2019-11-20 17:54:54,385 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-20 17:54:54,385 root : Ключ: server_info, Значення: ['Linux', '5796aa74a063', '5.0.0-23-generic', '#24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019', 'x86_64']
+INFO 2019-11-20 17:54:54,385 root : Ключ: client_info, Значення: python-requests/2.22.0
