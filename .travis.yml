@@ -29,7 +29,7 @@ jobs:
         - docker build -t moria12/lab4-examples:django-travis .
         - docker build -t moria12/lab4-examples:monitoring-travis --file Dockerfile.monitoring .
         - docker images
-        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push moria12/lab4-examples:django-travis; docker push moria12/lab4-examples:monitoring-travis else echo "PR skip deploy"; fi
+        - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push moria12/lab4-examples:django-travis; docker push moria12/lab4-examples:monitoring-travis; else echo "PR skip deploy"; fi
     - stage: "Build Lab 5."
       name: "Build and run Docker images via make"
       services:
